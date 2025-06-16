@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Verdana, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    background-color: white;
+    height: 13%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    height: 70%;
+}
+
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#fakeheader{
+    height: 13%;
+    width: 100%;
+}
+
+/* FAKEHEADER isiliye banayi because header (navigation bar) ki position fixed hai , and because of that jo page 1 hai 
+uska kuch part nav bar k peeche ja rha hai , so usko phirse neeche krne k liye we made a fake header jiski position 
+fixed nhi hai but it is taking the space of that header properly jisse page 1 ki proper 90vh height mil rhi hai hume to 
+use it . */
+
+.texts{
+    color: rgb(2, 2, 117);
+    display: flex;
+}
+
+.texts:hover{
+    color: rgb(77, 190, 228);
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: lightblue;
+}
+
+#contactUS{
+    font-weight: lighter;
+}
+
+#login{
+    padding: 10px;
+    display: flex;
+}
+
+#login:hover{
+    background-color: lightblue;
+    border-radius: 50px;
+}
+
+#tryforfree{
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(26, 136, 26);
+}
+
+#tryforfree:hover{
+    background-color: #302727;
+}
+
+#page1{
+    height: 87%;
+    width: 100%;
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+#content{
+    height: 76%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1{
+    height: 90%;
+    width: 47%;
+    background-color: white;
+}
+
+#box1 h1{
+    font-weight: 600;
+   color: rgb(1, 1, 83); 
+   font-size: 50px;
+   margin: 30px 10px;
+}
+
+#box1 p{
+    margin: 30px 10px;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+#button{
+    display: flex;
+}
+
+#button1{
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+    background-color:rgb(89 , 213, 255);
+}
+
+#button1:hover{
+    background-color: rgb(21, 21, 146);
+}
+
+#button2{
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color:rgb(89 , 213, 255);
+    border: 1px solid rgb(89 , 213, 255);
+}
+
+#button2:hover{
+    background-color: rgb(203, 232, 241);
+    color: rgb(0, 69, 92);
+    border-color: rgb(0, 69, 92); 
+}
+
+#box2{
+    height: 90%;
+    width: 47%;
+    background-color: blueviolet;
+}
+
+#box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#heading{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(22, 22, 122);
+}
+
+#page2{
+    height: 87%;
+    width: 100%;
+    background-color: gray;
+}
